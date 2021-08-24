@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: #508de2;
+    height: 70px;
+}
+h2{
+    padding: 20px;
+    color: #f1f1f1;
+    display: inline-block;
+}
+nav{
+    float: right;
+}
+a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+} 
+#mq{
+    margin-left: 30px;
+    top: 20px;
+    font-size: 1.5em;
+}
+#principal{
+    margin: auto;
+    width: 80%;
+}
+#quadro-novo{
+   width: 200px;
+   height: 120px;
+   background-color:#D3D3D3;
+   border: 2px solid #000;
+   margin: 30px;
+   display: inline-block;
+   position: relative;
+}
+.quadros{
+   width: 200px;
+   height: 120px;
+   background-color:#D3D3D3;
+   margin-top: 30px;
+   margin-left: 30px;
+   border: 2px solid #000;
+   float: left;
+   left: 0;
+   position: relative;
+}
+h4{
+    padding: 10px;
+    text-justify: auto;
+}
+#p-qn{
+   text-align: center;
+   margin-top: 50px;
+   color: black;
+}
+
+#quadro-novo:hover,.quadros:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+}
+
+
+#addTask{
+    padding: 18px;
+    position: fixed;
+    right: 50px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    color: white;
+    font-size: 15px;
+    top: 80%;
+}
