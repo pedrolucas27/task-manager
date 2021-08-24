@@ -3,8 +3,7 @@
 class Conexao {
 
     public static function conectar() {
-        //$conn = new mysqli("localhost", "root", "@!plffm", "Sistema_CadastroPHP");
-        $conn = new mysqli("localhost", "root", "@!plffm", "Task",3306, "/var/run/mysqld/mysqld.sock");
+        $conn = new mysqli("localhost", "root", "root", "Task", 3306, "/var/run/mysqld/mysqld.sock");
         if ($conn->connect_error) {
             die("Falha na Conexão: " . $conn->error);
         }
